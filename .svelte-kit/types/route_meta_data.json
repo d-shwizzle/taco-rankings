@@ -1,0 +1,29 @@
+{
+	"/(protected)": [
+		"src/routes/(protected)/+layout.server.ts"
+	],
+	"/": [
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/api/reviews": [
+		"src/routes/api/reviews/+server.ts"
+	],
+	"/api/taquerias": [
+		"src/routes/api/taquerias/+server.ts"
+	],
+	"/auth": [
+		"src/routes/auth/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/auth/reset-password": [
+		"src/routes/auth/reset-password/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/map": [
+		"src/routes/+layout.server.ts"
+	],
+	"/rate": [
+		"src/routes/+layout.server.ts"
+	]
+}
